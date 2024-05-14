@@ -1,0 +1,451 @@
+/* GLOBALS */
+
+/* Custom default button */
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+}
+
+/* HEADER */
+
+.nav-masthead .nav-link {
+  color: rgba(255, 255, 255, .5);
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link+.nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+.search-input {
+  color: whitesmoke;
+}
+
+.search-input:focus {
+  color: whitesmoke;
+}
+
+.boton-login,
+.boton-logout {
+  font-size: 20px;
+}
+
+.username-span {
+  display: none;
+}
+
+.upload-photo-button {
+  display: none;
+}
+
+.show-photo-button {
+  display: none;
+}
+
+/* BODY */
+.page-logo {
+  width: 15%;
+}
+
+.page-icon {
+  font-size: 50px;
+}
+
+
+@font-face {
+  font-family: "Material Symbol";
+  src:
+    local("./assets/font/material-symbol-rounded.woff2")
+}
+
+body {
+  font-family: "Material Symbol";
+  min-height: 100vh;
+}
+
+.main-container {
+  min-height: 100%;
+}
+
+/* CARD-ARA i CARD-PREVISIO-5DIES */
+.card-ara {
+  width: 95%;
+}
+
+.card-previsio-5dies {
+  width: 95%;
+  /* opacity: 10%; */
+}
+
+@media(min-width: 700px) {
+  .card-ara {
+    width: 95%;
+  }
+
+  .card-previsio-5dies {
+    width: 95%;
+  }
+}
+
+.card-ara .card-text-ara {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.card-ara .card-text-temp-current {
+  color: whitesmoke;
+  font-size: 46px;
+}
+
+.card-ara .card-img {
+  width: 35%;
+}
+
+.card-ara hr {
+  color: whitesmoke;
+}
+
+.card-ara .card-text-description-current {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.card-ara .card-icon {
+  color: lightgray;
+  margin-right: 10px;
+}
+
+.card-ara .card-text-data-current {
+  color: lightgray;
+  font-size: 16px;
+}
+
+.card-ara .card-text-lloc-current {
+  color: lightgray;
+  font-size: 16px;
+}
+
+.card-ara .add-favorite-button.is-favorite {
+  background-color: lightgray;
+  opacity: 50%;
+}
+
+.card-previsio-5dies .card-img {
+  width: 10%;
+}
+
+.card-previsio-5dies .card-text-temp-current {
+  color: whitesmoke;
+  font-size: 20px;
+  width: 25%;
+  text-align: right;
+}
+
+.card-previsio-5dies .card-text-data-current {
+  color: lightgrey;
+  font-size: 14px;
+  width: 35%;
+  text-align: right;
+}
+
+.card-previsio-5dies .card-text-dia {
+  color: lightgrey;
+  font-size: 14px;
+  width: 35%;
+  text-align: right;
+}
+
+/* CARDS BRIEFING */
+.card-qualitat-aire {
+  width: 95%;
+  opacity: 50%;
+}
+
+.card-sol {
+  width: 95%;
+}
+
+.card-humitat {
+  width: 95%;
+}
+
+.card-pressio {
+  width: 95%;
+}
+
+.card-visibilitat {
+  width: 95%;
+}
+
+.card-vent {
+  width: 95%;
+}
+
+@media(min-width: 700px) {
+  .card-qualitat-aire {
+    width: 48%;
+  }
+
+  .card-sol {
+    width: 48%
+  }
+
+  .card-humitat {
+    width: 22%
+  }
+
+  .card-pressio {
+    width: 22%
+  }
+
+  .card-visibilitat {
+    width: 22%
+  }
+
+  .card-vent {
+    width: 22%
+  }
+}
+
+.card-qualitat-aire .card-icon {
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+.card-qualitat-aire .card-text-titol {
+  color: lightgrey;
+  font-size: 16px;
+  text-align: left;
+}
+
+.card-qualitat-aire .card-text-variable {
+  color: lightgrey;
+  font-size: 14px;
+  text-align: left;
+}
+
+.card-qualitat-aire .card-text-mesura {
+  color: lightgrey;
+  font-size: 24px;
+  text-align: left;
+}
+
+.card-sol .card-icon {
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+.card-sol .card-text-titol {
+  color: lightgrey;
+  font-size: 16px;
+  text-align: left;
+}
+
+.card-sol .card-text-variable {
+  color: lightgrey;
+  font-size: 14px;
+  text-align: left;
+}
+
+.card-sol .card-text-mesura {
+  color: lightgrey;
+  font-size: 24px;
+  text-align: left;
+}
+
+.card-humitat .card-icon,
+.card-pressio .card-icon,
+.card-visibilitat .card-icon,
+.card-vent .card-icon {
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+.card-humitat .card-text-titol,
+.card-pressio .card-text-titol,
+.card-visibilitat .card-text-titol,
+.card-vent .card-text-titol {
+  color: lightgrey;
+  font-size: 16px;
+  text-align: left;
+}
+
+.card-humitat .card-text-variable,
+.card-pressio .card-text-variable,
+.card-visibilitat .card-text-variable,
+.card-vent .card-text-variable {
+  color: lightgrey;
+  font-size: 14px;
+  text-align: left;
+}
+
+.card-humitat .card-text-mesura,
+.card-pressio .card-text-mesura,
+.card-visibilitat .card-text-mesura,
+.card-vent .card-text-mesura {
+  color: lightgrey;
+  font-size: 24px;
+  text-align: left;
+}
+
+.card-previsio-per-hores {
+  width: 20%;
+  /* opacity: 10%; */
+}
+
+@media(min-width: 700px) {
+  .card-previsio-per-hores {
+    width: 10%;
+  }
+}
+
+.control-grafica {
+  color: lightgray;
+}
+
+.icon-grafica {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+.card-previsio-per-hores .card-img {
+  width: 50%;
+}
+
+/* .card-previsio-per-hores:nth-child(2) .img-vent {
+  transform: rotate(45deg);
+}
+
+.card-previsio-per-hores:nth-child(6) .img-vent {
+  transform: rotate(135deg);
+}
+
+.card-previsio-per-hores:nth-child(7) .img-vent {
+  transform: rotate(135deg);
+} */
+
+.card-previsio-per-hores .card-text-hora {
+  color: lightgrey;
+  font-size: 18px;
+  text-align: left;
+}
+
+.card-previsio-per-hores .card-text-temp-current {
+  color: lightgrey;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* MODAL */
+.modal-dialog {
+  color: black;
+}
+
+/* CARROUSEL */
+/* #carouselExample{
+  height: 90vh;
+} */
+
+.offcanvas-close{
+  background-color: white !important;
+}
+
+.comparison-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+#locationsTable {
+  width: auto;
+}

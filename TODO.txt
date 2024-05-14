@@ -1,0 +1,29 @@
+FET: -Atualizar dashboard a partir de búsquedas con sugerencias
+FET: -Atualizar dashboard a partir de geolocalización del navegador
+FET: -Añadir modal de login
+FET: -Autenticación de usuarios
+FET: -Daily forecast (repetido)
+
+PER FERs:
+->Poder guardar localizaciones favoritas
+---- Actualizar bbdd
+---- Nueva ruta de backend /favoritos
+---- datos en formato JSON
+->Que cada usuario tenga su localización por defecto (primera de las favoritas?)
+---- Nueva ruta o no?
+->Logging actividad aplicación: timestamp,script ejecutado,método(payload si hay post),ip_cliente,sesión(usuario)
+---- usar superglobals
+->Tener en cuenta zonas horarias (FIX)
+
+->Nueva funcionalidad: fotos de usuarios
+---- FRONT: Form Data: data.append('file', input.files[0])
+---- BACK: move_uploaded_file( $_FILES['userFile']['tmp_name'], 'images/'.$newname);
+---- FRONT: mostrar imágenes de algún modo
+
+
+Funcionalidades añadidas: 
+1. He añadido un grafico de comparativas de la temperatura maxima entre dos ubicaciones, en el grafico te muestra las siguientes 24h. --- (he usado tanto php como js)
+2. He añadido una tabla en la cual estan los nombres de las dos ubicaciones y un boton que sirve para eliminar dicha comparativa  ---- (he usado php, js y una base de datos llamada weather_comparasions en MysqlWorkbench)
+
+Archivos añadidos: comparasion.js y weather.php
+Archivo modificado: index.php (parte final antes del footer)
