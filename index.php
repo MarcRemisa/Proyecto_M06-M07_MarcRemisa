@@ -481,10 +481,6 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="comparasion.js"></script>
 
-
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="comparasion.js"></script>
-
         <footer class="w-100 mt-3 text-white-50 d-flex flex-columns justify-content-around">
             <span>ETP XAVIER CFGS DAW M6-M7 2023/2024</span>
             <span>Dades ofertes per <a target="_blank" href="https://open-meteo.com/">Open-Meteo.com</a></span>
